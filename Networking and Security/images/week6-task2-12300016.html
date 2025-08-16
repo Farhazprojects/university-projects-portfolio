@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>My Web Page</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<h1 class= "highlight">Welcome to My Web Page</h1>
+<p>Name: Farhaz Khondoker</p>
+<p> Id: 12300016 </p>
+<button onclick="showDateTime()">Show Date/Time</button>
+<p id="datetime"></p>
+<script> function showDateTime() {
+document.getElementById("datetime").innerHTML = new Date().toLocaleString();
+} </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+root@OpenWrt:~# ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel master br-mng                                                                                                                                                              state UP qlen 1000
+    link/ether 08:00:27:05:f0:3c brd ff:ff:ff:ff:ff:ff
+3: eth1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP qlen                                                                                                                                                              1000
+    link/ether 08:00:27:e2:ae:45 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.3.15/24 brd 10.0.3.255 scope global eth1
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a00:27ff:fee2:ae45/64 scope link
+       valid_lft forever preferred_lft forever
+4: br-mng: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP qle                                                                                                                                                             n 1000
+    link/ether 08:00:27:05:f0:3c brd ff:ff:ff:ff:ff:ff
+    inet 192.168.56.2/24 brd 192.168.56.255 scope global br-mng
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a00:27ff:fe05:f03c/64 scope link
+       valid_lft forever preferred_lft forever
+root@OpenWrt:~# tcpdump -i eth0 -n -w myping.pcap 'arp or icmp'
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 262144 byt                                                                                                                                                             es
+^C0 packets captured
+0 packets received by filter
+0 packets dropped by kernel
+root@OpenWrt:~#
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\12300016> test-connection -count 6 192.168.56.2
+
+Source        Destination     IPV4Address      IPV6Address                              Bytes    Time(ms)
+------        -----------     -----------      -----------                              -----    --------
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       1
+CQU011560     192.168.56.2                                                              32       1
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       1
+
+
+PS C:\Users\12300016> Test-connection 192.168.56.2
+
+Source        Destination     IPV4Address      IPV6Address                              Bytes    Time(ms)
+------        -----------     -----------      -----------                              -----    --------
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       1
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       0
+
+
+PS C:\Users\12300016> Get-NetAdapter
+
+Name                      InterfaceDescription                    ifIndex Status       MacAddress             LinkSpeed
+----                      --------------------                    ------- ------       ----------             ---------
+Ethernet                  Intel(R) Ethernet Connection (17) I2...      10 Up           00-BE-43-B7-CB-EF         1 Gbps
+Ethernet 2                VirtualBox Host-Only Ethernet Adapter         8 Up           0A-00-27-00-00-08         1 Gbps
+
+
+PS C:\Users\12300016> test-connection -count 10 192.168.56.2
+
+Source        Destination     IPV4Address      IPV6Address                              Bytes    Time(ms)
+------        -----------     -----------      -----------                              -----    --------
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       1
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       1
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       0
+CQU011560     192.168.56.2                                                              32       1
+
+
+PS C:\Users\12300016>

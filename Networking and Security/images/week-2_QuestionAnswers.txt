@@ -1,0 +1,38 @@
+- What is the computer’s operating system version? 
+  Answer: `WindowsCurrentVersion: 6.3` (Windows 11 Pro, Version 22H2, Build 22621)
+
+- How much physical memory is installed on the computer?  
+  Answer: `CsTotalPhysicalMemory: 34,033,328,128 bytes` (~32GB RAM)
+
+- What is the computer’s BIOS version?
+  Answer: `BiosBIOSVersion: {DELL - 2, 3.12.0, Dell -10000}` 
+
+- What is the processor model and speed? 
+  Answer: `CsProcessors: 12th Gen Intel(R) Core(TM) i7-12700`
+
+- How many logical processors does the system have?
+  Answer: `CsNumberOfLogicalProcessors: 20`
+
+- What is the total size of all hard drives?
+  Answer: 
+
+- What is the computer’s hostname?**  
+  Answer: `CsDNSHostName: CQU011572`
+
+- What is the primary IP address of the computer?
+  Answer:
+
+- Is the computer part of a domain? If so, what is the domain name? 
+  Answer: `CsPartOfDomain: False` (The computer is in `WORKGROUP`, not a domain.)
+
+- What is the current power state of the computer?
+  Answer: CsPowerState: Unknown` (But it is running as indicated by `CsBootupState: Normal boot`.)
+
+- Are there any power management capabilities supported?  
+  Answer:  
+
+- Who is the registered owner of the Windows installation?  
+  Answer:
+
+- What is the name of the currently logged-in user?
+  Answer: CsUserName: STUDENT\12300016`

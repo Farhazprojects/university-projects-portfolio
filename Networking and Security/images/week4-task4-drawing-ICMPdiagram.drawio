@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
+  <diagram name="Page-1" id="PGyEtpBHGc2rgO0zSy-d">
+    <mxGraphModel dx="2040" dy="1061" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-7" value="&lt;h2&gt;Frame 1: 74 bytes on wire , 74 bytes captured&amp;nbsp;&lt;/h2&gt;&lt;h2&gt;Ethernet II,&lt;/h2&gt;&lt;h2&gt;Destination:&amp;nbsp; (08:00:27:fc:f1:76)&lt;/h2&gt;&lt;h2&gt;Source:(0a:00:27:00:00:05)&lt;/h2&gt;&lt;h2&gt;Type: IPv4 (0x0800)&lt;/h2&gt;&lt;h2&gt;[Stream index: 0]&lt;/h2&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="106" y="129" width="263" height="263" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-10" value="&lt;h1&gt;Ethernet Header&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="70" width="264" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-13" value="&lt;h3&gt;Version 4,&lt;/h3&gt;&lt;h3&gt;Header Length: 20 bytes (5)&lt;/h3&gt;&lt;h3&gt;Protocol: ICMP (1)&lt;/h3&gt;&lt;h3&gt;Source Address: 192.168.56.1&lt;/h3&gt;&lt;h3&gt;Destination Address: 192.168.56.2&lt;/h3&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="106" y="412" width="263" height="263" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-14" value="&lt;h1&gt;Internet Protocol&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="392" width="264" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-15" value="&lt;h1&gt;Windows Host&lt;/h1&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="524" y="263" width="155" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-16" value="&lt;h1&gt;Switch&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="541.5" y="631" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.529;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.524;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ysg3iqIvXeeo9fuWZfi6-16" target="Ysg3iqIvXeeo9fuWZfi6-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="607" y="466" as="sourcePoint" />
+            <mxPoint x="607" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-25" value="&lt;h1&gt;Echo Request&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="653" y="449" width="166" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-26" value="&lt;h1&gt;Echo Reply&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="423" y="571" width="136" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579" y="613" as="sourcePoint" />
+            <mxPoint x="579" y="541" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="641" y="432" as="sourcePoint" />
+            <mxPoint x="641" y="498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-32" value="&lt;h2&gt;Type: 8 (Echo (ping) request)&lt;br&gt;Code: 0&lt;br&gt;Checksum: 0x4b9f [correct] [Checksum Status: Good]&lt;br&gt;Identifier (BE): 1 (0x0001)&lt;br&gt;Identifier (LE): 256 (0x0100)&lt;br&gt;Sequence Number (BE): 444 (0x01bc)&lt;br&gt;Sequence Number (LE): 48129 (0xbc01)[Response frame: 2]&lt;/h2&gt;&lt;h4&gt;&lt;br&gt;&lt;/h4&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="106" y="730" width="263" height="263" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-33" value="&lt;h1&gt;Internet Control Message Protocol&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="671" width="264" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-34" value="&lt;h1&gt;&lt;/h1&gt;&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Data: 6162636465666768&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;696a6b6c6d6e6f707&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;172737475767&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;76162&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;63646566676869&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;&quot;&gt;&lt;/h1&gt;&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [Length: 32]&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1049" width="264" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysg3iqIvXeeo9fuWZfi6-35" value="&lt;h1&gt;&amp;nbsp;Data (32 bytes)&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="993" width="264" height="59" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

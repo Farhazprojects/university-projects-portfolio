@@ -1,0 +1,97 @@
+PS C:\Windows\System32> arp -a
+
+Interface: 192.168.56.1 --- 0xb
+  Internet Address      Physical Address      Type
+  192.168.56.2          08-00-27-5e-f4-7d     dynamic
+  192.168.56.255        ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.192.152.143       01-00-5e-40-98-8f     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+
+Interface: 192.168.0.72 --- 0x13
+  Internet Address      Physical Address      Type
+  192.168.0.1           7c-f1-7e-5c-8b-c4     dynamic
+  192.168.0.17          e8-aa-cb-a9-15-f8     dynamic
+  192.168.0.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.192.152.143       01-00-5e-40-98-8f     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+PS C:\Windows\System32> ping 192.168.56.1
+
+Pinging 192.168.56.1 with 32 bytes of data:
+Reply from 192.168.56.1: bytes=32 time<1ms TTL=128
+Reply from 192.168.56.1: bytes=32 time<1ms TTL=128
+Reply from 192.168.56.1: bytes=32 time<1ms TTL=128
+Reply from 192.168.56.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.56.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+PS C:\Windows\System32> ping 192.168.56.2
+
+Pinging 192.168.56.2 with 32 bytes of data:
+Reply from 192.168.56.2: bytes=32 time=2ms TTL=64
+Reply from 192.168.56.2: bytes=32 time<1ms TTL=64
+Reply from 192.168.56.2: bytes=32 time<1ms TTL=64
+Reply from 192.168.56.2: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.56.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 2ms, Average = 0ms
+PS C:\Windows\System32> arp -a
+
+Interface: 192.168.56.1 --- 0xb
+  Internet Address      Physical Address      Type
+  192.168.56.2          08-00-27-5e-f4-7d     dynamic
+  192.168.56.255        ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.192.152.143       01-00-5e-40-98-8f     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+
+Interface: 192.168.0.72 --- 0x13
+  Internet Address      Physical Address      Type
+  192.168.0.1           7c-f1-7e-5c-8b-c4     dynamic
+  192.168.0.17          e8-aa-cb-a9-15-f8     dynamic
+  192.168.0.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.192.152.143       01-00-5e-40-98-8f     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+PS C:\Windows\System32> arp -a
+
+Interface: 192.168.56.1 --- 0xb
+  Internet Address      Physical Address      Type
+  192.168.56.2          08-00-27-5e-f4-7d     dynamic
+  192.168.56.255        ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.192.152.143       01-00-5e-40-98-8f     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+
+Interface: 192.168.0.72 --- 0x13
+  Internet Address      Physical Address      Type
+  192.168.0.1           7c-f1-7e-5c-8b-c4     dynamic
+  192.168.0.17          e8-aa-cb-a9-15-f8     dynamic
+  192.168.0.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.192.152.143       01-00-5e-40-98-8f     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+PS C:\Windows\System32>
