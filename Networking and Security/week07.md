@@ -37,7 +37,7 @@ These are details of my WIFI at home. I have collected the information using Pow
    - CCMP (Counter Mode with Cipher Block Chaining Message Authentication Code Protocol) is the encryption method used with WPA2.
    - It's based on AES encryption and provides strong security.
 
-+ BSSID: 7c:f1:7e:5c:8b:c2
++ BSSID: (Hidden for privacy purposes)
    - This is the MAC address of the Access Point's wireless interface.
    - Unique identifier for the specific AP the device is connecting to.
 
