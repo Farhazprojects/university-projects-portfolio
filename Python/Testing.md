@@ -52,4 +52,5 @@ User enters zero passengers.
 Enter number of passengers for Farhaz: 0
 Error - number of passengers must be at least 1.
 Enter number of passengers for Farhaz: 3
+
 ![Test 3 – Zero passengers error](../Python/Images/3.png)
