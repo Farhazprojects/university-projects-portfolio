@@ -42,13 +42,13 @@ It supports entering bookings, applying group discounts, displaying statistics, 
 - **Start:** Run `python nemo_tours.py` from your terminal  
 
 ### Menu options
-- **1: Enter booking** → Add a booking name and passenger count. Prints a receipt with the discounted total.  
-- **2: Display bookings** → Shows all bookings in aligned columns with calculated charges.  
-- **3: Display statistics** → Prints min/max/average passengers and total charges collected.  
-- **4: Search bookings** → Case-insensitive lookup by booking name; prints the matching receipt.  
-- **5: Save bookings to file** → Writes bookings to CSV with basic error handling.  
-- **6: Read bookings from file** → Loads bookings from CSV, checking if the file exists first.  
-- **7: Exit** → Quits the application with a closing message.  
+**1: Enter booking** → Add a booking name and passenger count. Prints a receipt with the discounted total.  
+**2: Display bookings** → Shows all bookings in aligned columns with calculated charges.  
+**3: Display statistics** → Prints min/max/average passengers and total charges collected.  
+**4: Search bookings** → Case-insensitive lookup by booking name; prints the matching receipt.  
+**5: Save bookings to file** → Writes bookings to CSV with basic error handling.  
+**6: Read bookings from file** → Loads bookings from CSV, checking if the file exists first.  
+**7: Exit** → Quits the application with a closing message.  
 
 > **Tip:** The current code uses a hardcoded path `bookings.csv`.  
 Update this path to a suitable location on your machine (e.g., your Documents folder) for portability.
