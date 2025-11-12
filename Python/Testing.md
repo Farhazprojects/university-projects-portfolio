@@ -40,3 +40,14 @@ Enter the booking name:
 Error - booking name cannot be blank.
 Enter the booking name: Farhaz
 ![Test 2 – Blank name error](../Python/Images/2.png)
+## Test 3
+**Description:**
+User enters zero passengers.
+**Expected Result:**
+- Error message shown
+- Program reprompts until valid passenger count entered Console
+**Output Example:**
+  Enter number of passengers for Farhaz: 0
+Error - number of passengers must be at least 1.
+Enter number of passengers for Farhaz: 3
+![Test 3 – Zero passengers error](../Python/images/3.png)
