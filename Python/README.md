@@ -57,7 +57,7 @@ Update this path to a suitable location on your machine (e.g., your Documents fo
 
 ## File I/O
 
-- **Save path:** `C:/Users/ASUS/Documents/bookings.csv`  
+- **Save path:** `bookings.csv`  
 - **Format:** Each line is `name,passengers`  
 - **Existence check:** Read operation verifies the file exists before loading  
 
