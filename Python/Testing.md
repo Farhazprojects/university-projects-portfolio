@@ -43,9 +43,11 @@ Enter the booking name: Farhaz
 ## Test 3
 **Description:**
 User enters zero passengers.
+
 **Expected Result:**
 - Error message shown
 - Program reprompts until valid passenger count entered Console
+
 **Output Example:**
 Enter number of passengers for Farhaz: 0
 Error - number of passengers must be at least 1.
