@@ -15,12 +15,12 @@ It supports entering bookings, applying group discounts, displaying statistics, 
 
 ## Features
 
-- ✅ **Validated inputs:** Non-empty booking names and integer passenger counts ≥ 1  
-- ✅ **Tiered discounts:** Auto-applied based on group size  
-- ✅ **Formatted listing:** Aligned columns for name, passengers, and charge  
-- ✅ **Statistics:** Minimum, maximum, average passengers, and total charges  
-- ✅ **Search:** Case-insensitive booking name lookup  
-- ✅ **CSV save/load:** Error-checked file I/O with existence checks  
+-  **Validated inputs:** Non-empty booking names and integer passenger counts ≥ 1  
+-  **Tiered discounts:** Auto-applied based on group size  
+-  **Formatted listing:** Aligned columns for name, passengers, and charge  
+-  **Statistics:** Minimum, maximum, average passengers, and total charges  
+-  **Search:** Case-insensitive booking name lookup  
+-  **CSV save/load:** Error-checked file I/O with existence checks  
 
 ---
 
