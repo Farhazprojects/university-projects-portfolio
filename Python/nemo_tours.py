@@ -161,7 +161,7 @@ def search_bookings():
 
 def save_bookings():
     try:
-        with open("C:/Users/ASUS/Documents/bookings.csv", "w") as file: # My own pcs directory
+        with open("C:/Users/bookings.csv", "w") as file: # My own pcs directory
             for i in range(booking_count):
                 file.write(f"{booking_names[i]},{booking_passengers[i]}\n")
         print("Data successfully saved to file.")
@@ -190,3 +190,4 @@ def read_bookings():
 
 print("Welcome to the Nemo Reef Tours Management System")
 process_menu_item()
+
