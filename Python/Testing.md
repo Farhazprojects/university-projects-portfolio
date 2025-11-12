@@ -28,7 +28,7 @@ Booking Name: Farhaz Khondoker
 Passengers: 8
 Total Charge: $649.70
 ```
-![Test 1 – Valid booking receipt](university-projects-portfolio/Python/Images/1.png)
+![Test 1 – Valid booking receipt](../Python/Images/1.png)
 ## Test 2
 **Description:** Booking name left blank. Expect error message and retry prompt.
 **Expected Result:**
@@ -39,4 +39,4 @@ Total Charge: $649.70
 Enter the booking name: 
 Error - booking name cannot be blank.
 Enter the booking name: Farhaz
-![Test 2 – Blank name error](Python/Images/2.png)
+![Test 2 – Blank name error](../Python/Images/2.png)
